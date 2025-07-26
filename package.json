@@ -1,0 +1,33 @@
+{
+  "name": "react-native-translatable",
+  "version": "1.0.0",
+  "description": "A React Native package that provides a translatable text component",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JerrySplendour/react-native-translatable.git"
+  },
+  "keywords": [
+    "react-native",
+    "translation",
+    "i18n"
+  ],
+  "author": "Jerry Splendor Marvel",
+  "license": "MIT",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "translate-google-api": "^1.0.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.74.2",
+    "@types/react-native": "^0.73.0"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.73.0"
+  },
+  "resolutions": { "@types/react": "18.2.0" }
+}
