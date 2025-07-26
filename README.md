@@ -11,6 +11,13 @@ npm install react-native-translatable
 
 
 ```
+or yarn:
+
+```sh
+yarn add react-native-translatable
+
+
+```
 
 
 ## Usage
@@ -23,8 +30,8 @@ import { TranslatableText } from 'react-native-translatable';
 const App = () => {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <TranslatableText lang="fr">Bonjour le monde</TranslatableText>
-      <TranslatableText lang="es">Hola mundo</TranslatableText>
+      <TranslatableText lang="fr">Hello World</TranslatableText> //expected output: Bonjour le monde
+      <TranslatableText lang="es">Hello World</TranslatableText> //expected output: Hola mundo
     </View>
   );
 };
@@ -35,8 +42,8 @@ export default App;
 
 ## Props
 
-•	lang: Optional. Language code for translation.
-•	Other props: All other props are passed through to the underlying Text component.
+-	lang: Optional. Language code for translation.
+-	Other props: All other props are passed through to the underlying Text component.
 
 
 
